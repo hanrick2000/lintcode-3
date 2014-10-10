@@ -1,0 +1,215 @@
+1.[Fuzz Buzz](http://lintcode.com/en/problem/fizz-buzz/)
+```java
+class Solution {
+    public ArrayList<String> fizzBuzz(int n) {
+        ArrayList<String> results = new ArrayList<String>();
+        if (n < 1) return results;
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                results.add("fizz buzz");
+            } else if (i % 3 == 0) {
+                results.add("fizz");
+            } else if (i % 5 == 0) {
+                results.add("buzz");
+            } else {
+                results.add(Integer.toString(i));
+            }
+        }
+        return results;
+    }
+}
+```
+    1. Solution.java:16: error: no suitable method found for add(int)
+
+     results.add(i);
+
+
+2.[Compare Strings](http://lintcode.com/en/problem/compare-strings/)
+```java
+public class Solution {
+    /**
+     * @param A : A string includes Upper Case letters
+     * @param B : A string includes Upper Case letter
+     * @return :  if string A contains all of the characters in B return true else return false
+     */
+    public boolean compareStrings(String A, String B) {
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < A.length(); i++) {
+            char a = A.charAt(i);
+            if (map.containsKey(a)) {
+                map.put(a, map.get(a) + 1);
+            } else {
+                map.put(a, 1);
+            }
+        }
+
+        for (int i = 0; i < B.length(); i++) {
+            char b = B.charAt(i);
+            if (!map.containsKey(b)) {
+                return false;
+            } else if (map.get(b) <= 0) {
+                return false;
+            } else {
+                map.put(b, map.get(b) - 1);
+            }
+        }
+
+        return true;
+    }
+}
+```
+    1.Solution.java:11: error: cannot find symbol
+      Hashmap map = new Hashmap<>();
+    2.Solution.java:15: error: no suitable method found for put(char,int)
+      map.put(a, map.get(a) + 1);
+      ^
+      method HashMap.put(String,Integer) is not applicable
+      **HashMap<String, Integer> ==> HashMap<Character, Integer>**
+    3.Wrong answer
+      "ABCDEFG", "ACC"
+
+3.[Min Stack](http://lintcode.com/en/problem/min-stack/)
+```java
+public class Solution {
+    private Stack<Integer> stack;
+    private Stack<Integer> minStack;
+
+    public Solution() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+    }
+
+    public void push(int number) {
+        stack.push(number);
+        if (minStack.isEmpty() || minStack.peek() >= number) {
+            minStack.push(number);
+        }
+    }
+
+    public int pop() {
+        int pop = stack.pop();
+        if (minStack.peek() == pop) {
+            minStack.pop();
+        }
+        return pop;
+    }
+
+    public int min() {
+        return minStack.peek();
+    }
+}
+```
+    1.Runtime Error
+      Input
+      push(1), push(1), push(1), min(), pop(), min(), pop()
+      Expected
+      [1,1,1,1]
+      **if (minStack.isEmpty() || minStack.peek() >=  number) {
+          minStack.push(number);
+      }**
+
+4.[Implement Queue by Stacks](http://lintcode.com/en/problem/implement-queue-by-stacks/)
+```java
+public class Solution {
+    private Stack<Integer> stack1;
+    private Stack<Integer> stack2;
+
+    public Solution() {
+       stack1 = new Stack<Integer>();
+       stack2 = new Stack<Integer>();
+    }
+
+    public void push(int element) {
+        stack1.push(element);
+    }
+
+    public int pop() {
+        while (!stack1.isEmpty()) {
+            stack2.push(stack1.pop());
+        }
+        int element = stack2.pop();
+        while (!stack2.isEmpty()) {
+            stack1.push(stack2.pop());
+        }
+        return element;
+    }
+
+    public int top() {
+        while (!stack1.isEmpty()) {
+            stack2.push(stack1.pop());
+        }
+        int element = stack2.peek();
+        while (!stack2.isEmpty()) {
+            stack1.push(stack2.pop());
+        }
+        return element;
+    }
+}
+```
+
+One time passed.
+
+
+5.[Majority Number My Submissions](http://lintcode.com/en/problem/majority-number/)
+```java
+public class Solution {
+    /**
+     * @param nums: a list of integers
+     * @return: find a  majority number
+     */
+    public int majorityNumber(ArrayList<Integer> nums) {
+        if (nums == null || nums.size() == 0) return -1;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.size(); i++) {
+            int num = nums.get(i);
+            if (!map.containsKey(num)) {
+                map.put(num, 1);
+            } else {
+                map.put(num, map.get(num) + 1);
+            }
+        }
+
+        int halfLength = nums.size() / 2;
+        for (Integer num : map.keySet()) {
+            if (map.get(num) > halfLength) {
+                return num;
+            }
+        }
+        return -1;
+    }
+}
+```
+
+6.[Reverse Words in a String](http://lintcode.com/en/problem/reverse-words-in-a-string/)
+```java
+public class Solution {
+    /**
+     * @param s : A string
+     * @return : A string
+     */
+    public String reverseWords(String s) {
+        if (s == null) return null;
+        s = s.trim();
+        String[] strs = s.split("\\s+");
+
+        StringBuilder builder = new StringBuilder();
+        for (int i = strs.length - 1; i > 0; i--) {
+            builder.append(strs[i] + " ");
+        }
+        builder.append(strs[0]);
+
+        return builder.toString();
+    }
+}
+```
+
+    1.Compile Warning
+      Solution.java:15: error: cannot find symbol
+      for (int i = strs.length() - 1; i > 0; i--) {
+      ^
+      symbol: method length()
+
+
+
+
+
