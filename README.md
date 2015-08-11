@@ -6,14 +6,16 @@ Solutions of problems from LintCode.
 
 ### Sorted Array
 
-1. [Merge sorted array]()
-2. [Merge sorted array II]
-3. [Recover rotated sorted array]
-4. Remove Duplicates from Sorted Array
-5. Remove Duplicates from Sorted Array II
+# | Problem | Solution 
+1 | [Merge sorted array](http://www.lintcode.com/en/problem/merge-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArray.java)
+2 | [Merge sorted array II](http://www.lintcode.com/en/problem/merge-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArrayII.java)
+3 | [Recover rotated sorted array](http://www.lintcode.com/en/problem/recover-rotated-sorted-array/)| [solution](https://github.com/tianlinliu/lintcode/blob/master/RecoverRotatedSortedArray.java)
+4 | [Remove Duplicates from Sorted Array](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArray.java)
+5 | [Remove Duplicates from Sorted Array II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArrayII.java)
 
 ### Binary Search
 
+# | Problem | Solution 
 1. Binary search
 1. Search for a range
 
