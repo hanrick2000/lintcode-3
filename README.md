@@ -5,8 +5,8 @@ Solutions of problems from LintCode.
 ## Table of content
 
 ### Sorted Array
-
-# | Problem | Solution 
+No. | Problem | Solution 
+---|---|---
 1 | [Merge sorted array](http://www.lintcode.com/en/problem/merge-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArray.java)
 2 | [Merge sorted array II](http://www.lintcode.com/en/problem/merge-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArrayII.java)
 3 | [Recover rotated sorted array](http://www.lintcode.com/en/problem/recover-rotated-sorted-array/)| [solution](https://github.com/tianlinliu/lintcode/blob/master/RecoverRotatedSortedArray.java)
@@ -15,13 +15,14 @@ Solutions of problems from LintCode.
 
 ### Binary Search
 
-# | Problem | Solution 
-1. Binary search
-1. Search for a range
+No. | Problem | Solution 
+---|---|---
+1|[Binary search](http://www.lintcode.com/en/problem/binary-search/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearch.java)
+2|[Search Insert Position](http://www.lintcode.com/en/problem/search-insert-position/)|[solution]()
+3|[Search for a range](http://www.lintcode.com/en/problem/search-for-a-range/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchRange.java)
+4|[First Bad Version](http://www.lintcode.com/en/problem/first-bad-version/)|[solution]()
 
-2. First Bad Version
-3. Find Peak Element
-4. Search Insert Position
+5|[Find Peak Element]()|[solution]()
 
 4. Find Minimum in Rotated Sorted Array
 4. Find Minimum in Rotated Sorted Array II
@@ -31,4 +32,6 @@ Solutions of problems from LintCode.
 7. Median of two sorted arrays
 
 8. Sqrt(x)
-9. 
+
+
+|[]()|[solution]()
