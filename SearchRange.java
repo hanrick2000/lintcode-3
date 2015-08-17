@@ -23,11 +23,39 @@ public class SearchRange {
     private int findStart(ArrayList<Integer> A, int target) {
         int low = 0;
         int high = A.size() - 1;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (A.get(mid) >= target) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return A.get(low) == target? low : -1;
+    }
+
+    private int findEnd(ArrayList<Integer> A, int target) {
+        int low = 0;
+        int high = A.size() - 1;
+        while (low < high) {
+            int mid = low + (high - low + 1) / 2;
+            if (A.get(mid) > target) {
+                high = mid - 1;
+            } else {
+                low = mid;
+            }
+        }
+        return A.get(low) == target ? low : -1;
+    }
+
+    /* jiuzhang
+    private int findStart(ArrayList<Integer> A, int target) {
+        int low = 0;
+        int high = A.size() - 1;
         while (low + 1 < high) {
             int mid = low + (high - low) / 2;
-            if (A.get(mid) == target) {
-                high = mid;
-            } else if (A.get(mid) < target) {
+            if (A.get(mid) < target) {
                 low = mid;
             } else {
                 high = mid;
@@ -48,9 +76,7 @@ public class SearchRange {
         int high = A.size() - 1;
         while (low + 1 < high) {
             int mid = low + (high - low) / 2;
-            if (A.get(mid) == target) {
-                low = mid;
-            } else if (A.get(mid) < target) {
+            if (A.get(mid) <= target) {
                 low = mid;
             } else {
                 high = mid;
@@ -65,5 +91,6 @@ public class SearchRange {
         }
         return -1;
     }
+    */
 }
 
