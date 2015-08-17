@@ -8,25 +8,21 @@ class BinarySearch {
      * @return: The first position of target. Position starts from 0.
      */
     public int binarySearch(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+
         int low = 0;
         int high = nums.length - 1;
-        while (low + 1 < high) {
+        while (low < high) {
             int mid = low + (high - low) / 2;
-            if (nums[mid] == target) {
+            if (nums[mid] >= target) {
                 high = mid;
-            } else if (nums[mid] < target) {
-                low = mid;
             } else {
-                high = mid;
+                low = mid + 1;
             }
         }
 
-        if (nums[low] == target) {
-            return low;
-        }
-        if (nums[high] == target) {
-            return high;
-        }
-        return -1;
+        return nums[low] == target ? low : -1;
     }
 }
