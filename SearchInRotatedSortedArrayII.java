@@ -14,6 +14,8 @@ public class SearchInRotatedSortedArrayII {
 
         int low = 0;
         int high = A.length - 1;
+        // temination condition is when there are 2 nums, because both halves are
+        // sorted, the dups removal condition will fail.
         while (low + 1 < high) {
             int mid = low + (high - low) / 2;
             if (A[low] == A[mid]) {
