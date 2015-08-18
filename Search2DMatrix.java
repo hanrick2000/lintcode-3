@@ -58,15 +58,15 @@ public class Search2DMatrix {
 
         int low = 0;
         int high = m * n - 1;
-        while (low + 1 < high) {
+        while (low < high) {
             int mid = low + (high - low) / 2;
-            if (matrix[mid / m][mid % m] < target) {
-                low = mid;
-            } else {
+            if (matrix[mid / m][mid % m] >= target) {
                 high = mid;
+            } else {
+                low = mid + 1;
             }
         }
-        return matrix[low / m][low % m] == target || matrix[high / m][high % m] == target;
+        return matrix[low / m][low % m] == target;
     }
 }
 
