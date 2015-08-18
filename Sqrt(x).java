@@ -6,6 +6,20 @@ class Sqrt(x) {
      * @param x: An integer
      * @return: The sqrt of x
      */
+    public int sqrt_discrete(int x) {
+        long low = 1;
+        long high = x;
+        while (low < high) {
+            long mid = low + (high - low + 1) / 2;
+            if (mid * mid > x) {
+                high = mid - 1;
+            } else {
+                low = mid;
+            }
+        }
+        return low * low <= x ? (int)low : 0;
+    }
+
     public int sqrt(int x) {
         if (x <= 0) {
             return 0;
