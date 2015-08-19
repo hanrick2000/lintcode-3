@@ -1,5 +1,8 @@
 public class WoodCut {
     /**
+     * Time: O(NlogLen), Len is max int in L.
+     * Space: O(1)
+     *
      *@param L: Given n pieces of wood with length L[i]
      *@param k: An integer
      *return: The maximum length of the small pieces.
