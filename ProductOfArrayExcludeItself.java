@@ -1,5 +1,8 @@
 public class ProductOfArrayExcludeItself {
     /**
+     * Time: O(N)
+     * Space: O(1)
+     *
      * @param A: Given an integers array A
      * @return: A Long array B and B[i]= A[0] * ... * A[i-1] * A[i+1] * ... * A[n-1]
      */
