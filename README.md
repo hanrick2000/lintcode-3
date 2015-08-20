@@ -33,26 +33,31 @@ No. | Problem | Solution | Note
 7. Median of two sorted arrays
 
 ### Linked List
-Problem | Solution | Note
----|---|---
-[Delete Node in the Middle of Singly Linked List](http://www.lintcode.com/en/problem/delete-node-in-the-middle-of-singly-linked-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DeleteNodeInTheMiddleOfSinglyLinkedList.java)
-[Nth to Last Node in List](http://www.lintcode.com/en/problem/nth-to-last-node-in-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NthToLastNodeInList.java)
-[Remove Nth Node From End of List](http://www.lintcode.com/en/problem/remove-nth-node-from-end-of-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveNthNodeFromEndOfList.java)
-[Rotate List](http://www.lintcode.com/en/problem/rotate-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateList.java)
-[Reverse Linked List](http://www.lintcode.com/en/problem/reverse-linked-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReverseLinkedList.java)
-[Reverse Linked List II](http://www.lintcode.com/en/problem/reverse-linked-list-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReverseLinkedListII.java)
-[Reorder List](http://www.lintcode.com/en/problem/reorder-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReorderList.java)
-[Merge Two Sorted Lists](http://www.lintcode.com/en/problem/merge-two-sorted-lists/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MergeTwoSortedLists.java)
-[Merge K Sorted Lists](http://www.lintcode.com/en/problem/merge-k-sorted-lists/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MergeKSortedLists.java)|to do: d&c solution
-[Remove Duplicates from Sorted List](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedList.java)
-[Remove Duplicates from Sorted List II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedListII.java)
-[Linked List Cycle](http://www.lintcode.com/en/problem/linked-list-cycle/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LinkedListCycle.java)
-[Linked List Cycle II](http://www.lintcode.com/en/problem/linked-list-cycle-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LinkedListCycleII.java)
-[Add Two Numbers](http://www.lintcode.com/en/problem/add-two-numbers/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddTwoNumbers.java)
-[Insertion Sort List](http://www.lintcode.com/en/problem/insertion-sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertionSortList.java)
-[Partition List](http://www.lintcode.com/en/problem/partition-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionList.java)
-[Sort List](http://www.lintcode.com/en/problem/sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortList.java)|quick sort
-[Copy List with Random Pointer](http://www.lintcode.com/en/problem/copy-list-with-random-pointer/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CopyListWithRandomPointer.java)
+No.|Problem | Solution | Note
+---|---|---|---
+ |*Get Nth Node*
+1|[Nth to Last Node in List](http://www.lintcode.com/en/problem/nth-to-last-node-in-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NthToLastNodeInList.java)
+2|[Remove Nth Node From End of List](http://www.lintcode.com/en/problem/remove-nth-node-from-end-of-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveNthNodeFromEndOfList.java)
+3|[Rotate List](http://www.lintcode.com/en/problem/rotate-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateList.java)
+ |*Reverse*
+4|[Reverse Linked List](http://www.lintcode.com/en/problem/reverse-linked-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReverseLinkedList.java)
+5|[Reverse Linked List II](http://www.lintcode.com/en/problem/reverse-linked-list-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReverseLinkedListII.java)
+6|[Reorder List](http://www.lintcode.com/en/problem/reorder-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReorderList.java)
+ | *Merge*
+7|[Merge Two Sorted Lists](http://www.lintcode.com/en/problem/merge-two-sorted-lists/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MergeTwoSortedLists.java)
+8|[Merge K Sorted Lists](http://www.lintcode.com/en/problem/merge-k-sorted-lists/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MergeKSortedLists.java)|to do: d&c solution
+9|[Add Two Numbers](http://www.lintcode.com/en/problem/add-two-numbers/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddTwoNumbers.java)
+ |*Sort*
+10|[Insertion Sort List](http://www.lintcode.com/en/problem/insertion-sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertionSortList.java)
+11|[Partition List](http://www.lintcode.com/en/problem/partition-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionList.java)
+12|[Sort List](http://www.lintcode.com/en/problem/sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortList.java)|quick sort
+ |
+13|[Delete Node in the Middle of Singly Linked List](http://www.lintcode.com/en/problem/delete-node-in-the-middle-of-singly-linked-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DeleteNodeInTheMiddleOfSinglyLinkedList.java)
+14|[Remove Duplicates from Sorted List](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedList.java)
+15|[Remove Duplicates from Sorted List II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedListII.java)
+16|[Linked List Cycle](http://www.lintcode.com/en/problem/linked-list-cycle/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LinkedListCycle.java)
+17|[Linked List Cycle II](http://www.lintcode.com/en/problem/linked-list-cycle-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LinkedListCycleII.java)
+18|[Copy List with Random Pointer](http://www.lintcode.com/en/problem/copy-list-with-random-pointer/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CopyListWithRandomPointer.java)
 
 
 
