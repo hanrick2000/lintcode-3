@@ -59,7 +59,36 @@ No.|Problem | Solution | Note
 17|[Linked List Cycle II](http://www.lintcode.com/en/problem/linked-list-cycle-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LinkedListCycleII.java)
 18|[Copy List with Random Pointer](http://www.lintcode.com/en/problem/copy-list-with-random-pointer/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CopyListWithRandomPointer.java)
 
-
+### Binary Tree
+No. | Problem | Solution | Note
+---|---|---|---
+ |*Binary Tree*
+ |*Traversal-dfs*
+1|[Binary Tree Preorder Traversal](http://www.lintcode.com/en/problem/binary-tree-preorder-traversal/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreePreorderTraversal.java)
+2|[Binary Tree Inorder Traversal](http://www.lintcode.com/en/problem/binary-tree-inorder-traversal/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeInorderTraversal.java)
+3|[Binary Tree Postorder Traversal](http://www.lintcode.com/en/problem/binary-tree-postorder-traversal/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreePostorderTraversal.java)
+4|[Construct Binary Tree from Preorder and Inorder Traversal](http://www.lintcode.com/en/problem/construct-binary-tree-from-preorder-and-inorder-traversal/#)|[solution]()
+5|[Construct Binary Tree from Inorder and Postorder Traversal](http://www.lintcode.com/en/problem/construct-binary-tree-from-inorder-and-postorder-traversal/#)|[solution]()
+ |*bfs*
+6|[Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeLevelOrderTraversal.java)
+7|[Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeLevelOrderTraversalII.java)
+8|[Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-zigzag-level-order-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeZigzagLevelOrderTraversal.java)
+9|[Invert Binary Tree](http://www.lintcode.com/en/problem/invert-binary-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InvertBinaryTree.java)
+10|[Binary Tree Serialization](http://www.lintcode.com/en/problem/binary-tree-serialization/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeSerialization.java)
+|
+11|[Maximum Depth of Binary Tree](http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MaximumDepthOfBinaryTree.java)
+12|[Minimum Depth of Binary Tree](http://www.lintcode.com/en/problem/minimum-depth-of-binary-tree/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumDepthOfBinaryTree.java)
+13|[Subtree](http://www.lintcode.com/en/problem/subtree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Subtree.java)
+14|[Balanced Binary Tree](http://www.lintcode.com/en/problem/balanced-binary-tree/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BalancedBinaryTree.java)
+15|[Lowest Common Ancestor](http://www.lintcode.com/en/problem/lowest-common-ancestor/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LowestCommonAncestor.java)
+16|[Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/#)|[solution]()
+ |*Binary Search Tree*
+17|[Convert Sorted Array to Binary Search Tree With Minimal Height](http://www.lintcode.com/en/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/#)|[solution]()
+18|[Search Range in Binary Search Tree](http://www.lintcode.com/en/problem/search-range-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchRangeInBinarySearchTree.java)
+19|[Validate Binary Search Tree](http://www.lintcode.com/en/problem/validate-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidateBinarySearchTree.java)
+20|[Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearchTreeIterator.java)
+21|[Insert Node in a Binary Search Tree](http://www.lintcode.com/en/problem/insert-node-in-a-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertNodeInBinarySearchTree.java)
+22|[Remove Node in Binary Search Tree](http://www.lintcode.com/en/problem/remove-node-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveNodeInBinarySearchTree.java)|*
 
 
 ### Integer Array
@@ -69,9 +98,5 @@ No. | Problem | Solution | Note
 2|[First Missing Positive](http://www.lintcode.com/en/problem/first-missing-positive/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FirstMissingPositive.java)|*
 3|[Product of Array Exclude Itself](http://www.lintcode.com/en/problem/product-of-array-exclude-itself/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ProductOfArrayExcludeItself.java)
 
-
-
-
-[]()|[solution]()
 
 |[]()|[solution]()
