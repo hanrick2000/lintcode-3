@@ -29,5 +29,35 @@ class Permutations {
             list.remove(list.size() - 1);
         }
     }
+
+    public ArrayList<ArrayList<Integer>> permute_iteration(ArrayList<Integer> nums) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        if (nums == null) {
+            return result;
+        }
+
+        Queue<ArrayList<Integer>> q = new LinkedList<>();
+        for (int n : nums) {
+            ArrayList<Integer> list = new ArrayList<>();
+            list.add(n);
+            q.offer(list);
+        }
+
+        for (int i = 0; i < nums.size() - 1; i++) {
+            int size = q.size();
+            for (int j = 0; j < size; j++) {
+                ArrayList<Integer> curr = q.poll();
+                ArrayList<Integer> remain = new ArrayList<Integer>(nums);
+                remain.removeAll(curr);
+                for (int n : remain) {
+                    ArrayList<Integer> list = new ArrayList<>(curr);
+                    list.add(n);
+                    q.offer(list);
+                }
+            }
+        }
+        result.addAll(q);
+        return result;
+    }
 }
 
