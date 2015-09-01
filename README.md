@@ -125,10 +125,23 @@ Solutions of problems from LintCode.
 ### Dynamic Programming
 |#| Problem | Solution | Note
 ---|---|---|---
-|[Fibonacci](http://www.lintcode.com/en/problem/fibonacci/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Fibonacci.java)
-|[Climbing Stairs](http://www.lintcode.com/en/problem/climbing-stairs/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ClimbingStairs.java)
+|matrix
 |[Triangle](http://www.lintcode.com/problem/triangle)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Triangle.java)
 |[Minimum Path Sum](http://www.lintcode.com/en/problem/minimum-path-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumPathSum.java)|time complexity
+|[Unique Paths](http://www.lintcode.com/en/problem/unique-paths/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniquePaths.java)
+|[Unique Paths II](http://www.lintcode.com/en/problem/unique-paths-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniquePathsII.java)
+|[Longest Increasing Continuous Subsequence](http://www.lintcode.com/en/problem/longest-increasing-continuous-subsequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingContinuousSubsequence.java)
+|sequence
+|[Fibonacci](http://www.lintcode.com/en/problem/fibonacci/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Fibonacci.java)
+|[Climbing Stairs](http://www.lintcode.com/en/problem/climbing-stairs/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ClimbingStairs.java)
+|[Jump Game](http://www.lintcode.com/en/problem/jump-game/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGame.java)
+|[Jump Game II](http://www.lintcode.com/en/problem/jump-game-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGameII.java)
+|[Longest Increasing Subsequence](http://www.lintcode.com/en/problem/longest-increasing-subsequence/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingSubsequence.java)
+|[Palindrome Partitioning II](http://www.lintcode.com/en/problem/palindrome-partitioning-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordBreak.java)
+|[Word Break](http://www.lintcode.com/en/problem/word-break/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioningII.java)|Note
+|2 sequences
+
+
 
 
 
