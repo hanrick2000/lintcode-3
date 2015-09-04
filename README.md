@@ -89,12 +89,24 @@ Solutions of problems from LintCode.
 20|[Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearchTreeIterator.java)
 21|[Insert Node in a Binary Search Tree](http://www.lintcode.com/en/problem/insert-node-in-a-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertNodeInBinarySearchTree.java)
 22|[Remove Node in Binary Search Tree](http://www.lintcode.com/en/problem/remove-node-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveNodeInBinarySearchTree.java)|*
+ | *Segment Tree*
+23|[Segment Tree Build](http://www.lintcode.com/en/problem/segment-tree-build/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeBuild.java)
+24|[Segmemt Tree Build II](http://www.lintcode.com/en/problem/segmemt-tree-build-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmemtTreeBuildII.java)
+25|[Segment Tree Query](http://www.lintcode.com/en/problem/segment-tree-query/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeQuery.java)
+26|[Segment Tree Query II](http://www.lintcode.com/en/problem/segment-tree-query-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeQueryII.java)
+27|[Segment Tree Modify](http://www.lintcode.com/en/problem/segment-tree-modify/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeModify.java)
+28|[Interval Minimum Number](http://www.lintcode.com/en/problem/interval-minimum-number/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/IntervalMinimumNumber.java)
+
 
 ### Graph
 |#| Problem | Solution | Note
 ---|---|---|---
 1|[Clone Graph](http://www.lintcode.com/en/problem/clone-graph/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CloneGraph.java)
 2|[Route Between Two Nodes in Graph](http://www.lintcode.com/en/problem/route-between-two-nodes-in-graph/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RouteBetweenTwoNodesInGraph.java)
+3|[Word Ladder](http://www.lintcode.com/en/problem/word-ladder/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordLadder.java)
+4|[Word Ladder II](http://www.lintcode.com/en/problem/word-ladder-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordLadderII.java)|level order
+5|[Find the Connected Component in the Undirected Graph](http://www.lintcode.com/en/problem/find-the-connected-component-in-the-undirected-graph/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindConnectedComponentInUndirectedGraph.java)
+
 
 ### Search
 |#| Problem | Solution | Note
@@ -103,6 +115,8 @@ Solutions of problems from LintCode.
 |[Subsets II](http://www.lintcode.com/en/problem/subsets-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SubsetsII.java)
 |[Permutations](http://www.lintcode.com/en/problem/permutations/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Permutations.java)
 |[Permutations II](http://www.lintcode.com/en/problem/permutations-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationsII.java)|iteration
+|[Palindrome Partitioning](http://www.lintcode.com/en/problem/palindrome-partitioning/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioning.java)|time?
+
 
 ### String
 |#| Problem | Solution | Note
@@ -136,12 +150,22 @@ Solutions of problems from LintCode.
 |[Climbing Stairs](http://www.lintcode.com/en/problem/climbing-stairs/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ClimbingStairs.java)
 |[Jump Game](http://www.lintcode.com/en/problem/jump-game/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGame.java)
 |[Jump Game II](http://www.lintcode.com/en/problem/jump-game-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGameII.java)
-|[Longest Increasing Subsequence](http://www.lintcode.com/en/problem/longest-increasing-subsequence/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingSubsequence.java)
+|[Longest Increasing Subsequence](http://www.lintcode.com/en/problem/longest-increasing-subsequence/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingSubsequence.java)|O(NlogN)
 |[Palindrome Partitioning II](http://www.lintcode.com/en/problem/palindrome-partitioning-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordBreak.java)
 |[Word Break](http://www.lintcode.com/en/problem/word-break/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioningII.java)|Note
 |2 sequences
+|[Longest Common Subsequence](http://www.lintcode.com/en/problem/longest-common-subsequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestCommonSubsequence.java)
+|[Longest Common Substring](http://www.lintcode.com/en/problem/longest-common-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestCommonSubstring.java)
+|[Edit Distance](http://www.lintcode.com/en/problem/edit-distance/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/EditDistance.java)
+|[Distinct Subsequences](http://www.lintcode.com/en/problem/distinct-subsequences/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DistinctSubsequences.java)
+|[Interleaving String](http://www.lintcode.com/en/problem/interleaving-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingString.java)
 
 
+
+### Bit
+|#| Problem | Solution | Note
+---|---|---|---
+|[Count 1 in Binary](http://www.lintcode.com/en/problem/count-1-in-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountOneInBinary.java)
 
 
 
@@ -151,6 +175,12 @@ Solutions of problems from LintCode.
 1|[Remove Element](http://www.lintcode.com/en/problem/remove-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveElement.java)
 2|[First Missing Positive](http://www.lintcode.com/en/problem/first-missing-positive/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FirstMissingPositive.java)|*
 3|[Product of Array Exclude Itself](http://www.lintcode.com/en/problem/product-of-array-exclude-itself/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ProductOfArrayExcludeItself.java)
+
+### Basic
+|#| Problem | Solution | Note
+---|---|---|---
+|[Insert Interval](http://www.lintcode.com/en/problem/insert-interval/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertInterval.java)
+
 
 
 |[]()|[solution]()
