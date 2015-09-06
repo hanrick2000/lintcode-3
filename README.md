@@ -5,11 +5,14 @@ Solutions of problems from LintCode.
 ### Sorted Array
 |#| Problem | Solution 
 ---|---|---
-1 | [Merge sorted array](http://www.lintcode.com/en/problem/merge-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArray.java)
-2 | [Merge sorted array II](http://www.lintcode.com/en/problem/merge-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArrayII.java)
-3 | [Recover rotated sorted array](http://www.lintcode.com/en/problem/recover-rotated-sorted-array/)| [solution](https://github.com/tianlinliu/lintcode/blob/master/RecoverRotatedSortedArray.java)
-4 | [Remove Duplicates from Sorted Array](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArray.java)
-5 | [Remove Duplicates from Sorted Array II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArrayII.java)
+1|[Merge sorted array](http://www.lintcode.com/en/problem/merge-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArray.java)
+2|[Merge sorted array II](http://www.lintcode.com/en/problem/merge-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/MergeSortedArrayII.java)
+3|[Recover rotated sorted array](http://www.lintcode.com/en/problem/recover-rotated-sorted-array/)| [solution](https://github.com/tianlinliu/lintcode/blob/master/RecoverRotatedSortedArray.java)
+4|[Remove Duplicates from Sorted Array](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArray.java)
+5|[Remove Duplicates from Sorted Array II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArrayII.java)
+ |Intervals
+6|[Insert Interval](http://www.lintcode.com/en/problem/insert-interval/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertInterval.java)
+7|[Merge Intervals](http://www.lintcode.com/en/problem/merge-intervals/#)|[solution]()
 
 ### Binary Search
 
@@ -116,6 +119,10 @@ Solutions of problems from LintCode.
 |[Permutations](http://www.lintcode.com/en/problem/permutations/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Permutations.java)
 |[Permutations II](http://www.lintcode.com/en/problem/permutations-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationsII.java)|iteration
 |[Palindrome Partitioning](http://www.lintcode.com/en/problem/palindrome-partitioning/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioning.java)|time?
+|[N-Queens](http://www.lintcode.com/en/problem/n-queens/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NQueens.java)
+|[N-Queens II](http://www.lintcode.com/en/problem/n-queens-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NQueensII.java)
+|[Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TopologicalSorting.java)
+|[Combination Sum](http://www.lintcode.com/en/problem/combination-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CombinationSum.java)
 
 
 ### String
@@ -160,6 +167,12 @@ Solutions of problems from LintCode.
 |[Distinct Subsequences](http://www.lintcode.com/en/problem/distinct-subsequences/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DistinctSubsequences.java)
 |[Interleaving String](http://www.lintcode.com/en/problem/interleaving-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingString.java)
 
+### Data Structures
+|#| Problem | Solution | Note
+---|---|---|---
+|stack
+|[Valid Parentheses](http://www.lintcode.com/en/problem/valid-parentheses/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidParentheses.java)
+|[Min Stack](http://www.lintcode.com/en/problem/min-stack/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinStack.java)
 
 
 ### Bit
@@ -175,12 +188,17 @@ Solutions of problems from LintCode.
 1|[Remove Element](http://www.lintcode.com/en/problem/remove-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveElement.java)
 2|[First Missing Positive](http://www.lintcode.com/en/problem/first-missing-positive/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FirstMissingPositive.java)|*
 3|[Product of Array Exclude Itself](http://www.lintcode.com/en/problem/product-of-array-exclude-itself/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ProductOfArrayExcludeItself.java)
+4|[Plus One](http://www.lintcode.com/en/problem/plus-one/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PlusOne.java)
+ |partition
+5|[Partition Array](http://www.lintcode.com/en/problem/partition-array/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArray.java)
+6|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
+7|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
+|
 
 ### Basic
 |#| Problem | Solution | Note
 ---|---|---|---
-|[Insert Interval](http://www.lintcode.com/en/problem/insert-interval/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertInterval.java)
-
+|[Matrix Zigzag Traversal](http://www.lintcode.com/en/problem/matrix-zigzag-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MatrixZigzagTraversal.java)
 
 
 |[]()|[solution]()
