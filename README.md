@@ -2,7 +2,7 @@
 
 Solutions of problems from LintCode.
 
-## Table of content
+## Table of Contents
 
 <!-- MarkdownTOC -->
 
