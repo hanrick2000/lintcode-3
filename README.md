@@ -173,6 +173,16 @@ Solutions of problems from LintCode.
 |stack
 |[Valid Parentheses](http://www.lintcode.com/en/problem/valid-parentheses/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidParentheses.java)
 |[Min Stack](http://www.lintcode.com/en/problem/min-stack/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinStack.java)
+|[Implement Queue by Two Stacks](http://www.lintcode.com/en/problem/implement-queue-by-two-stacks/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ImplementQueueByTwoStacks.java)
+|hash table
+|[Hash Function](http://www.lintcode.com/en/problem/hash-function/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/HashFunction.java)|?
+|[Rehashing](http://www.lintcode.com/en/problem/rehashing/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Rehashing.java)
+|set
+|[Longest Consecutive Sequence](http://www.lintcode.com/en/problem/longest-consecutive-sequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestConsecutiveSequence.java)
+|linked list
+|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LRUCache.java)
+|heap
+|[Data Stream Median](http://www.lintcode.com/en/problem/data-stream-median/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DataStreamMedian.java)|comparator
 
 
 ### Bit
