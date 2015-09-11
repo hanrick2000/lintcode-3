@@ -70,40 +70,44 @@ public class SortList {
         if (head == null || head.next == null) {
             return head;
         }
-
         ListNode smallDummy = new ListNode(0);
         ListNode largeDummy = new ListNode(0);
+        partition(head, smallDummy, largeDummy);
+
+        smallDummy.next = sortList(smallDummy.next);
+        largeDummy.next = sortList(largeDummy.next);
+
+        ListNode smallTail = getTail(smallDummy);
+        smallTail.next = head;
+        head.next = largeDummy.next;
+        return smallDummy.next;
+    }
+
+
+    private void partition(ListNode head, ListNode smallDummy, ListNode largeDummy) {
+        int pivot = head.val;
+        head = head.next;
         ListNode smallTail = smallDummy;
         ListNode largeTail = largeDummy;
-        ListNode pivot = head;
-        ListNode pivotTail = pivot;
-        head = head.next;
         while (head != null) {
-            if (head.val < pivot.val) {
+            if (head.val < pivot) {
                 smallTail.next = head;
                 smallTail = smallTail.next;
-            } else if (head.val > pivot.val) {
+            } else {
                 largeTail.next = head;
                 largeTail = largeTail.next;
-            } else {
-                pivotTail.next = head;
-                pivotTail = pivotTail.next;
             }
             head = head.next;
         }
         smallTail.next = null;
         largeTail.next = null;
+    }
 
-        smallDummy.next = sortList(smallDummy.next);
-        // find small tail
-        smallTail = smallDummy;
-        while (smallTail.next != null) {
-            smallTail = smallTail.next;
+    private ListNode getTail(ListNode head) {
+        while (head.next != null) {
+            head = head.next;
         }
-        smallTail.next = pivot;
-        pivotTail.next = sortList(largeDummy.next);
-
-        return smallDummy.next;
+        return head;
     }
 }
 
