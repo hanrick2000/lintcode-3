@@ -75,7 +75,7 @@ Solutions of problems from LintCode.
  |*Sort*
 10|[Insertion Sort List](http://www.lintcode.com/en/problem/insertion-sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertionSortList.java)
 11|[Partition List](http://www.lintcode.com/en/problem/partition-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionList.java)
-12|[Sort List](http://www.lintcode.com/en/problem/sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortList.java)|quick sort
+12|[Sort List](http://www.lintcode.com/en/problem/sort-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortList.java)|
  |
 13|[Delete Node in the Middle of Singly Linked List](http://www.lintcode.com/en/problem/delete-node-in-the-middle-of-singly-linked-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DeleteNodeInTheMiddleOfSinglyLinkedList.java)
 14|[Remove Duplicates from Sorted List](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedList.java)
@@ -197,6 +197,8 @@ Solutions of problems from LintCode.
 |[Valid Parentheses](http://www.lintcode.com/en/problem/valid-parentheses/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidParentheses.java)
 |[Min Stack](http://www.lintcode.com/en/problem/min-stack/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinStack.java)
 |[Implement Queue by Two Stacks](http://www.lintcode.com/en/problem/implement-queue-by-two-stacks/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ImplementQueueByTwoStacks.java)
+|[Max Tree](http://www.lintcode.com/en/problem/max-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MaxTree.java)
+|[Largest Rectangle in Histogram](http://www.lintcode.com/en/problem/largest-rectangle-in-histogram/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LargestRectangleInHistogram.java)
 |hash table
 |[Hash Function](http://www.lintcode.com/en/problem/hash-function/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/HashFunction.java)|?
 |[Rehashing](http://www.lintcode.com/en/problem/rehashing/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Rehashing.java)
@@ -227,6 +229,8 @@ Solutions of problems from LintCode.
 6|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
 7|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
 |
+8|[Median](http://www.lintcode.com/en/problem/median/)|[solution]()|quick select
+
 
 ## Basic
 |#| Problem | Solution | Note
