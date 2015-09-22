@@ -17,6 +17,7 @@ Solutions of problems from LintCode.
 - [Data Structures](#data-structures)
 - [Bit](#bit)
 - [Integer Array](#integer-array)
+- [Two pointers](#two-pointers)
 - [Basic](#basic)
 
 <!-- /MarkdownTOC -->
@@ -33,7 +34,7 @@ Solutions of problems from LintCode.
 5|[Remove Duplicates from Sorted Array II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/) | [solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveDuplicatesFromSortedArrayII.java)
  |Intervals
 6|[Insert Interval](http://www.lintcode.com/en/problem/insert-interval/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertInterval.java)
-7|[Merge Intervals](http://www.lintcode.com/en/problem/merge-intervals/#)|[solution]()
+7|[Merge Intervals](http://www.lintcode.com/en/problem/merge-intervals/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MergeIntervals.java)
 
 
 ## Binary Search
@@ -156,11 +157,11 @@ Solutions of problems from LintCode.
 |[Two Strings Are Anagrams](http://www.lintcode.com/en/problem/two-strings-are-anagrams/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TwoStringsAreAnagrams.java)
 |[Compare Strings](http://www.lintcode.com/en/problem/compare-strings/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CompareStrings.java)
 |[StrStr](http://www.lintcode.com/en/problem/strstr/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/StrStr.java)
-|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
 |[Rotate String](http://www.lintcode.com/en/problem/rotate-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateString.java)
 |[Space Replacement](http://www.lintcode.com/en/problem/space-replacement/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SpaceReplacement.java)
 |[Count and Say](http://www.lintcode.com/en/problem/count-and-say/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountAndSay.java)|*
 |[Add Binary](http://www.lintcode.com/en/problem/add-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddBinary.java)
+|[String to Integer(atoi)](http://www.lintcode.com/en/problem/string-to-integeratoi/#)|[solution]()
 
 
 
@@ -224,12 +225,26 @@ Solutions of problems from LintCode.
 2|[First Missing Positive](http://www.lintcode.com/en/problem/first-missing-positive/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FirstMissingPositive.java)|*
 3|[Product of Array Exclude Itself](http://www.lintcode.com/en/problem/product-of-array-exclude-itself/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ProductOfArrayExcludeItself.java)
 4|[Plus One](http://www.lintcode.com/en/problem/plus-one/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PlusOne.java)
- |partition
-5|[Partition Array](http://www.lintcode.com/en/problem/partition-array/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArray.java)
-6|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
-7|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
 |
-8|[Median](http://www.lintcode.com/en/problem/median/)|[solution]()|quick select
+5|[Median](http://www.lintcode.com/en/problem/median/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Median.java)|quick select
+
+## Two pointers
+|#| Problem | Solution | Note
+---|---|---|---
+1|[2 Sum](http://www.lintcode.com/en/problem/2-sum/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/2Sum.java)
+2|[3 Sum](http://www.lintcode.com/en/problem/3-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3Sum.java)
+3|[3 Sum Closest](http://www.lintcode.com/en/problem/3-sum-closest/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3SumClosest.java)
+4|[4 Sum](http://www.lintcode.com/en/problem/4-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/4Sum.java)
+5|[Triangle Count](http://www.lintcode.com/en/problem/triangle-count/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TriangleCount.java)|?
+6|[Trapping Rain Water](http://www.lintcode.com/en/problem/trapping-rain-water/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TrappingRainWater.java)
+7|[Container With Most Water](http://www.lintcode.com/en/problem/container-with-most-water/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ContainerWithMostWater.java)
+ |partition
+8|[Partition Array](http://www.lintcode.com/en/problem/partition-array/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArray.java)
+9|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
+10|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
+11|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
+12|[Sort Colors](http://www.lintcode.com/en/problem/sort-colors/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColors.java)
+
 
 
 ## Basic
