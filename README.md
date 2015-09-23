@@ -10,11 +10,11 @@ Solutions of problems from LintCode.
 - [Binary Search](#binary-search)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree)
+- [Data Structures](#data-structures)
 - [Graph](#graph)
 - [Search](#search)
 - [String](#string)
 - [Dynamic Programming](#dynamic-programming)
-- [Data Structures](#data-structures)
 - [Bit](#bit)
 - [Integer Array](#integer-array)
 - [Two pointers](#two-pointers)
@@ -58,7 +58,9 @@ Solutions of problems from LintCode.
 2. [Count of Smaller Number](http://www.lintcode.com/en/problem/count-of-smaller-number/)
 7. Median of two sorted arrays
 
+
 ## Linked List
+
 |#|Problem | Solution | Note
 ---:|---|---|---
  |*Get Nth Node*
@@ -85,7 +87,9 @@ Solutions of problems from LintCode.
 17|[Linked List Cycle II](http://www.lintcode.com/en/problem/linked-list-cycle-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LinkedListCycleII.java)
 18|[Copy List with Random Pointer](http://www.lintcode.com/en/problem/copy-list-with-random-pointer/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CopyListWithRandomPointer.java)
 
+
 ## Binary Tree
+
 |#| Problem | Solution | Note
 ---:|---|---|---
  |*Binary Tree*
@@ -124,6 +128,26 @@ Solutions of problems from LintCode.
 28|[Interval Minimum Number](http://www.lintcode.com/en/problem/interval-minimum-number/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/IntervalMinimumNumber.java)
 
 
+## Data Structures
+
+|#| Problem | Solution | Note
+---:|---|---|---
+ |linked list
+1|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LRUCache.java)
+ |set
+2|[Longest Consecutive Sequence](http://www.lintcode.com/en/problem/longest-consecutive-sequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestConsecutiveSequence.java)
+ |heap
+3|[Data Stream Median](http://www.lintcode.com/en/problem/data-stream-median/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DataStreamMedian.java)|comparator
+ |stack
+4|[Min Stack](http://www.lintcode.com/en/problem/min-stack/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinStack.java)
+5|[Implement Queue by Two Stacks](http://www.lintcode.com/en/problem/implement-queue-by-two-stacks/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ImplementQueueByTwoStacks.java)
+6|[Valid Parentheses](http://www.lintcode.com/en/problem/valid-parentheses/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidParentheses.java)
+7|[Max Tree](http://www.lintcode.com/en/problem/max-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MaxTree.java)
+8|[Largest Rectangle in Histogram](http://www.lintcode.com/en/problem/largest-rectangle-in-histogram/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LargestRectangleInHistogram.java)
+ |hash table
+9|[Hash Function](http://www.lintcode.com/en/problem/hash-function/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/HashFunction.java)|?
+10|[Rehashing](http://www.lintcode.com/en/problem/rehashing/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Rehashing.java)
+
 ## Graph
 |#| Problem | Solution | Note
 ---|---|---|---
@@ -135,6 +159,7 @@ Solutions of problems from LintCode.
 
 
 ## Search
+
 |#| Problem | Solution | Note
 ---:|---|---|---
 |[Subsets](http://www.lintcode.com/en/problem/subsets/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Subsets.java)
@@ -149,6 +174,7 @@ Solutions of problems from LintCode.
 
 
 ## String
+
 |#| Problem | Solution | Note
 ---:|---|---|---
 |[Unique Characters](http://www.lintcode.com/en/problem/unique-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueCharacters.java)
@@ -167,6 +193,7 @@ Solutions of problems from LintCode.
 
 
 ## Dynamic Programming
+
 |#| Problem | Solution | Note
 ---:|---|---|---
 |matrix
@@ -191,27 +218,8 @@ Solutions of problems from LintCode.
 |[Interleaving String](http://www.lintcode.com/en/problem/interleaving-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingString.java)
 
 
-## Data Structures
-|#| Problem | Solution | Note
----:|---|---|---
-|stack
-|[Valid Parentheses](http://www.lintcode.com/en/problem/valid-parentheses/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidParentheses.java)
-|[Min Stack](http://www.lintcode.com/en/problem/min-stack/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinStack.java)
-|[Implement Queue by Two Stacks](http://www.lintcode.com/en/problem/implement-queue-by-two-stacks/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ImplementQueueByTwoStacks.java)
-|[Max Tree](http://www.lintcode.com/en/problem/max-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MaxTree.java)
-|[Largest Rectangle in Histogram](http://www.lintcode.com/en/problem/largest-rectangle-in-histogram/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LargestRectangleInHistogram.java)
-|hash table
-|[Hash Function](http://www.lintcode.com/en/problem/hash-function/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/HashFunction.java)|?
-|[Rehashing](http://www.lintcode.com/en/problem/rehashing/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Rehashing.java)
-|set
-|[Longest Consecutive Sequence](http://www.lintcode.com/en/problem/longest-consecutive-sequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestConsecutiveSequence.java)
-|linked list
-|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LRUCache.java)
-|heap
-|[Data Stream Median](http://www.lintcode.com/en/problem/data-stream-median/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DataStreamMedian.java)|comparator
-
-
 ## Bit
+
 |#| Problem | Solution | Note
 ---:|---|---|---
 |[Count 1 in Binary](http://www.lintcode.com/en/problem/count-1-in-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountOneInBinary.java)
@@ -219,6 +227,7 @@ Solutions of problems from LintCode.
 
 
 ## Integer Array
+
 |#| Problem | Solution | Note
 ---:|---|---|---
 1|[Remove Element](http://www.lintcode.com/en/problem/remove-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveElement.java)
@@ -229,8 +238,9 @@ Solutions of problems from LintCode.
 5|[Median](http://www.lintcode.com/en/problem/median/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Median.java)|quick select
 
 ## Two pointers
+
 |#| Problem | Solution | Note
----|---|---|---
+---:|---|---|---
 1|[2 Sum](http://www.lintcode.com/en/problem/2-sum/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/2Sum.java)
 2|[3 Sum](http://www.lintcode.com/en/problem/3-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3Sum.java)
 3|[3 Sum Closest](http://www.lintcode.com/en/problem/3-sum-closest/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3SumClosest.java)
@@ -242,15 +252,18 @@ Solutions of problems from LintCode.
 8|[Partition Array](http://www.lintcode.com/en/problem/partition-array/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArray.java)
 9|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
 10|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
-11|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
-12|[Sort Colors](http://www.lintcode.com/en/problem/sort-colors/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColors.java)
+11|[Sort Colors](http://www.lintcode.com/en/problem/sort-colors/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColors.java)
+12|[Sort Colors II](http://www.lintcode.com/en/problem/sort-colors-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColorsII.java)| time
+13|[Sort Letters by Case](http://www.lintcode.com/en/problem/sort-letters-by-case/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortLettersByCase.java)
+14|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
 
 
 
 ## Basic
+
 |#| Problem | Solution | Note
----|---|---|---
-|[Matrix Zigzag Traversal](http://www.lintcode.com/en/problem/matrix-zigzag-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MatrixZigzagTraversal.java)
+---:|---|---|---
+1|[Matrix Zigzag Traversal](http://www.lintcode.com/en/problem/matrix-zigzag-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MatrixZigzagTraversal.java)
 
 
 |[]()|[solution]()
