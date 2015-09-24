@@ -10,14 +10,20 @@ Solutions of problems from LintCode.
 - [Binary Search](#binary-search)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree)
+    - [Binary Tree](#binary-tree-1)
+    - [Binary Search Tree](#binary-search-tree)
+    - [Segment Tree](#segment-tree)
 - [Data Structures](#data-structures)
 - [Graph](#graph)
 - [Search](#search)
-- [String](#string)
 - [Dynamic Programming](#dynamic-programming)
+    - [Matrix](#matrix)
+    - [Sequence](#sequence)
+    - [Two Sequences](#two-sequences)
+- [Two pointers](#two-pointers)
+- [String](#string)
 - [Bit & Math](#bit--math)
 - [Integer Array](#integer-array)
-- [Two pointers](#two-pointers)
 - [Basic](#basic)
 
 <!-- /MarkdownTOC -->
@@ -90,16 +96,17 @@ Solutions of problems from LintCode.
 
 ## Binary Tree
 
+### Binary Tree
+
 |#| Problem | Solution | Note
 ---:|---|---|---
- |*Binary Tree*
  |*Traversal-dfs*
 1|[Binary Tree Preorder Traversal](http://www.lintcode.com/en/problem/binary-tree-preorder-traversal/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreePreorderTraversal.java)
 2|[Binary Tree Inorder Traversal](http://www.lintcode.com/en/problem/binary-tree-inorder-traversal/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeInorderTraversal.java)
 3|[Binary Tree Postorder Traversal](http://www.lintcode.com/en/problem/binary-tree-postorder-traversal/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreePostorderTraversal.java)
 4|[Construct Binary Tree from Preorder and Inorder Traversal](http://www.lintcode.com/en/problem/construct-binary-tree-from-preorder-and-inorder-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 5|[Construct Binary Tree from Inorder and Postorder Traversal](http://www.lintcode.com/en/problem/construct-binary-tree-from-inorder-and-postorder-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ConstructBinaryTreeFromInorderAndPostorderTraversal.java)
- |*bfs*
+ |*Traversal-bfs*
 6|[Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeLevelOrderTraversal.java)
 7|[Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeLevelOrderTraversalII.java)
 8|[Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-zigzag-level-order-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeZigzagLevelOrderTraversal.java)
@@ -112,20 +119,28 @@ Solutions of problems from LintCode.
 14|[Balanced Binary Tree](http://www.lintcode.com/en/problem/balanced-binary-tree/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BalancedBinaryTree.java)
 15|[Lowest Common Ancestor](http://www.lintcode.com/en/problem/lowest-common-ancestor/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LowestCommonAncestor.java)
 16|[Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinaryTreeMaximumPathSum.java)|*
- |*Binary Search Tree*
-17|[Convert Sorted Array to Binary Search Tree With Minimal Height](http://www.lintcode.com/en/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ConvertSortedArrayToBinarySearchTreeWithMinimalHeight.java)
-18|[Search Range in Binary Search Tree](http://www.lintcode.com/en/problem/search-range-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchRangeInBinarySearchTree.java)
-19|[Validate Binary Search Tree](http://www.lintcode.com/en/problem/validate-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidateBinarySearchTree.java)
-20|[Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearchTreeIterator.java)
-21|[Insert Node in a Binary Search Tree](http://www.lintcode.com/en/problem/insert-node-in-a-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertNodeInBinarySearchTree.java)
-22|[Remove Node in Binary Search Tree](http://www.lintcode.com/en/problem/remove-node-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveNodeInBinarySearchTree.java)|*
- | *Segment Tree*
-23|[Segment Tree Build](http://www.lintcode.com/en/problem/segment-tree-build/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeBuild.java)
-24|[Segmemt Tree Build II](http://www.lintcode.com/en/problem/segmemt-tree-build-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmemtTreeBuildII.java)
-25|[Segment Tree Query](http://www.lintcode.com/en/problem/segment-tree-query/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeQuery.java)
-26|[Segment Tree Query II](http://www.lintcode.com/en/problem/segment-tree-query-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeQueryII.java)
-27|[Segment Tree Modify](http://www.lintcode.com/en/problem/segment-tree-modify/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeModify.java)
-28|[Interval Minimum Number](http://www.lintcode.com/en/problem/interval-minimum-number/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/IntervalMinimumNumber.java)
+ 
+### Binary Search Tree
+
+|#| Problem | Solution | Note
+---:|---|---|---
+1|[Convert Sorted Array to Binary Search Tree With Minimal Height](http://www.lintcode.com/en/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ConvertSortedArrayToBinarySearchTreeWithMinimalHeight.java)
+2|[Search Range in Binary Search Tree](http://www.lintcode.com/en/problem/search-range-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchRangeInBinarySearchTree.java)
+3|[Validate Binary Search Tree](http://www.lintcode.com/en/problem/validate-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidateBinarySearchTree.java)
+4|[Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearchTreeIterator.java)
+5|[Insert Node in a Binary Search Tree](http://www.lintcode.com/en/problem/insert-node-in-a-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InsertNodeInBinarySearchTree.java)
+6|[Remove Node in Binary Search Tree](http://www.lintcode.com/en/problem/remove-node-in-binary-search-tree/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveNodeInBinarySearchTree.java)|*
+
+### Segment Tree
+
+|#| Problem | Solution | Note
+---:|---|---|---
+1|[Segment Tree Build](http://www.lintcode.com/en/problem/segment-tree-build/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeBuild.java)
+2|[Segmemt Tree Build II](http://www.lintcode.com/en/problem/segmemt-tree-build-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmemtTreeBuildII.java)
+3|[Segment Tree Query](http://www.lintcode.com/en/problem/segment-tree-query/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeQuery.java)
+4|[Segment Tree Query II](http://www.lintcode.com/en/problem/segment-tree-query-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeQueryII.java)
+5|[Segment Tree Modify](http://www.lintcode.com/en/problem/segment-tree-modify/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SegmentTreeModify.java)
+6|[Interval Minimum Number](http://www.lintcode.com/en/problem/interval-minimum-number/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/IntervalMinimumNumber.java)
 
 
 ## Data Structures
@@ -162,83 +177,49 @@ Solutions of problems from LintCode.
 
 |#| Problem | Solution | Note
 ---:|---|---|---
-|[Subsets](http://www.lintcode.com/en/problem/subsets/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Subsets.java)
-|[Subsets II](http://www.lintcode.com/en/problem/subsets-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SubsetsII.java)
-|[Permutations](http://www.lintcode.com/en/problem/permutations/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Permutations.java)
-|[Permutations II](http://www.lintcode.com/en/problem/permutations-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationsII.java)|iteration
-|[Palindrome Partitioning](http://www.lintcode.com/en/problem/palindrome-partitioning/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioning.java)|time?
-|[N-Queens](http://www.lintcode.com/en/problem/n-queens/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NQueens.java)
-|[N-Queens II](http://www.lintcode.com/en/problem/n-queens-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NQueensII.java)
-|[Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TopologicalSorting.java)
-|[Combination Sum](http://www.lintcode.com/en/problem/combination-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CombinationSum.java)
-
-
-## String
-
-|#| Problem | Solution | Note
----:|---|---|---
-|[Unique Characters](http://www.lintcode.com/en/problem/unique-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueCharacters.java)
-|[Longest Words](http://www.lintcode.com/en/problem/longest-words/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestWords.java)
-|[Length of Last Word](http://www.lintcode.com/en/problem/length-of-last-word/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LengthOfLastWord.java)
-|[Two Strings Are Anagrams](http://www.lintcode.com/en/problem/two-strings-are-anagrams/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TwoStringsAreAnagrams.java)
-|[Compare Strings](http://www.lintcode.com/en/problem/compare-strings/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CompareStrings.java)
-|[StrStr](http://www.lintcode.com/en/problem/strstr/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/StrStr.java)
-|[Rotate String](http://www.lintcode.com/en/problem/rotate-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateString.java)
-|[Space Replacement](http://www.lintcode.com/en/problem/space-replacement/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SpaceReplacement.java)
-|[Count and Say](http://www.lintcode.com/en/problem/count-and-say/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountAndSay.java)|*
-|[Add Binary](http://www.lintcode.com/en/problem/add-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddBinary.java)
-|[String to Integer(atoi)](http://www.lintcode.com/en/problem/string-to-integeratoi/#)|[solution]()
-
-
+1|[Subsets](http://www.lintcode.com/en/problem/subsets/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Subsets.java)
+2|[Subsets II](http://www.lintcode.com/en/problem/subsets-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SubsetsII.java)
+3|[Permutations](http://www.lintcode.com/en/problem/permutations/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Permutations.java)
+4|[Permutations II](http://www.lintcode.com/en/problem/permutations-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationsII.java)|iteration
+5|[Palindrome Partitioning](http://www.lintcode.com/en/problem/palindrome-partitioning/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioning.java)|time?
+6|[N-Queens](http://www.lintcode.com/en/problem/n-queens/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NQueens.java)
+7|[N-Queens II](http://www.lintcode.com/en/problem/n-queens-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NQueensII.java)
+8|[Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TopologicalSorting.java)
+9|[Combination Sum](http://www.lintcode.com/en/problem/combination-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CombinationSum.java)
 
 
 ## Dynamic Programming
 
-|#| Problem | Solution | Note
----:|---|---|---
-|matrix
-|[Triangle](http://www.lintcode.com/problem/triangle)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Triangle.java)
-|[Minimum Path Sum](http://www.lintcode.com/en/problem/minimum-path-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumPathSum.java)|time complexity
-|[Unique Paths](http://www.lintcode.com/en/problem/unique-paths/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniquePaths.java)
-|[Unique Paths II](http://www.lintcode.com/en/problem/unique-paths-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniquePathsII.java)
-|[Longest Increasing Continuous Subsequence](http://www.lintcode.com/en/problem/longest-increasing-continuous-subsequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingContinuousSubsequence.java)
-|sequence
-|[Fibonacci](http://www.lintcode.com/en/problem/fibonacci/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Fibonacci.java)
-|[Climbing Stairs](http://www.lintcode.com/en/problem/climbing-stairs/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ClimbingStairs.java)
-|[Jump Game](http://www.lintcode.com/en/problem/jump-game/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGame.java)
-|[Jump Game II](http://www.lintcode.com/en/problem/jump-game-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGameII.java)
-|[Longest Increasing Subsequence](http://www.lintcode.com/en/problem/longest-increasing-subsequence/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingSubsequence.java)|O(NlogN)
-|[Palindrome Partitioning II](http://www.lintcode.com/en/problem/palindrome-partitioning-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordBreak.java)
-|[Word Break](http://www.lintcode.com/en/problem/word-break/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioningII.java)|Note
-|2 sequences
-|[Longest Common Subsequence](http://www.lintcode.com/en/problem/longest-common-subsequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestCommonSubsequence.java)
-|[Longest Common Substring](http://www.lintcode.com/en/problem/longest-common-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestCommonSubstring.java)
-|[Edit Distance](http://www.lintcode.com/en/problem/edit-distance/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/EditDistance.java)
-|[Distinct Subsequences](http://www.lintcode.com/en/problem/distinct-subsequences/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DistinctSubsequences.java)
-|[Interleaving String](http://www.lintcode.com/en/problem/interleaving-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingString.java)
-
-
-## Bit & Math
+### Matrix
 
 |#| Problem | Solution | Note
 ---:|---|---|---
-1|[Count 1 in Binary](http://www.lintcode.com/en/problem/count-1-in-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountOneInBinary.java)
-|[Flip Bits](http://www.lintcode.com/en/problem/flip-bits/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FlipBits.java)
-|[Unique Binary Search Tree](http://www.lintcode.com/en/problem/unique-binary-search-trees/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueBinarySearchTree.java)
-|[Trailing Zeros](http://www.lintcode.com/en/problem/trailing-zeros/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TrailingZeros.java)
+1|[Triangle](http://www.lintcode.com/problem/triangle)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Triangle.java)
+2|[Minimum Path Sum](http://www.lintcode.com/en/problem/minimum-path-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumPathSum.java)|time complexity
+3|[Unique Paths](http://www.lintcode.com/en/problem/unique-paths/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniquePaths.java)
+4|[Unique Paths II](http://www.lintcode.com/en/problem/unique-paths-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniquePathsII.java)
+5|[Longest Increasing Continuous Subsequence](http://www.lintcode.com/en/problem/longest-increasing-continuous-subsequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingContinuousSubsequence.java)
 
-
-
-## Integer Array
-
+### Sequence
 |#| Problem | Solution | Note
 ---:|---|---|---
-1|[Remove Element](http://www.lintcode.com/en/problem/remove-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveElement.java)
-2|[First Missing Positive](http://www.lintcode.com/en/problem/first-missing-positive/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FirstMissingPositive.java)|*
-3|[Product of Array Exclude Itself](http://www.lintcode.com/en/problem/product-of-array-exclude-itself/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ProductOfArrayExcludeItself.java)
-4|[Plus One](http://www.lintcode.com/en/problem/plus-one/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PlusOne.java)
-|
-5|[Median](http://www.lintcode.com/en/problem/median/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Median.java)|quick select
+1|[Fibonacci](http://www.lintcode.com/en/problem/fibonacci/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Fibonacci.java)
+2|[Climbing Stairs](http://www.lintcode.com/en/problem/climbing-stairs/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ClimbingStairs.java)
+3|[Jump Game](http://www.lintcode.com/en/problem/jump-game/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGame.java)
+4|[Jump Game II](http://www.lintcode.com/en/problem/jump-game-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/JumpGameII.java)
+5|[Longest Increasing Subsequence](http://www.lintcode.com/en/problem/longest-increasing-subsequence/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestIncreasingSubsequence.java)|O(NlogN)
+6|[Palindrome Partitioning II](http://www.lintcode.com/en/problem/palindrome-partitioning-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordBreak.java)
+7|[Word Break](http://www.lintcode.com/en/problem/word-break/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PalindromePartitioningII.java)|Note
+
+### Two Sequences
+|#| Problem | Solution | Note
+---:|---|---|---
+1|[Longest Common Subsequence](http://www.lintcode.com/en/problem/longest-common-subsequence/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestCommonSubsequence.java)
+2|[Longest Common Substring](http://www.lintcode.com/en/problem/longest-common-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestCommonSubstring.java)
+3|[Edit Distance](http://www.lintcode.com/en/problem/edit-distance/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/EditDistance.java)
+4|[Distinct Subsequences](http://www.lintcode.com/en/problem/distinct-subsequences/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/DistinctSubsequences.java)
+5|[Interleaving String](http://www.lintcode.com/en/problem/interleaving-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingString.java)
+
 
 ## Two pointers
 
@@ -259,6 +240,47 @@ Solutions of problems from LintCode.
 12|[Sort Colors II](http://www.lintcode.com/en/problem/sort-colors-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColorsII.java)| time
 13|[Sort Letters by Case](http://www.lintcode.com/en/problem/sort-letters-by-case/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortLettersByCase.java)
 14|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
+
+
+## String
+
+|#| Problem | Solution | Note
+---:|---|---|---
+|[Unique Characters](http://www.lintcode.com/en/problem/unique-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueCharacters.java)
+|[Longest Words](http://www.lintcode.com/en/problem/longest-words/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestWords.java)
+|[Length of Last Word](http://www.lintcode.com/en/problem/length-of-last-word/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LengthOfLastWord.java)
+|[Two Strings Are Anagrams](http://www.lintcode.com/en/problem/two-strings-are-anagrams/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TwoStringsAreAnagrams.java)
+|[Compare Strings](http://www.lintcode.com/en/problem/compare-strings/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CompareStrings.java)
+|[StrStr](http://www.lintcode.com/en/problem/strstr/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/StrStr.java)
+|[Rotate String](http://www.lintcode.com/en/problem/rotate-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateString.java)
+|[Space Replacement](http://www.lintcode.com/en/problem/space-replacement/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SpaceReplacement.java)
+|[Count and Say](http://www.lintcode.com/en/problem/count-and-say/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountAndSay.java)|*
+|[Add Binary](http://www.lintcode.com/en/problem/add-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddBinary.java)
+|[String to Integer(atoi)](http://www.lintcode.com/en/problem/string-to-integeratoi/#)|[solution]()
+
+
+## Bit & Math
+
+|#| Problem | Solution | Note
+---:|---|---|---
+1|[Count 1 in Binary](http://www.lintcode.com/en/problem/count-1-in-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountOneInBinary.java)
+2|[Flip Bits](http://www.lintcode.com/en/problem/flip-bits/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FlipBits.java)
+3|[Trailing Zeros](http://www.lintcode.com/en/problem/trailing-zeros/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TrailingZeros.java)
+4|[Unique Binary Search Tree](http://www.lintcode.com/en/problem/unique-binary-search-trees/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueBinarySearchTree.java)
+
+
+
+## Integer Array
+
+|#| Problem | Solution | Note
+---:|---|---|---
+1|[Remove Element](http://www.lintcode.com/en/problem/remove-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RemoveElement.java)
+2|[First Missing Positive](http://www.lintcode.com/en/problem/first-missing-positive/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FirstMissingPositive.java)|*
+3|[Product of Array Exclude Itself](http://www.lintcode.com/en/problem/product-of-array-exclude-itself/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ProductOfArrayExcludeItself.java)
+4|[Plus One](http://www.lintcode.com/en/problem/plus-one/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PlusOne.java)
+|
+5|[Median](http://www.lintcode.com/en/problem/median/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Median.java)|quick select
+
 
 
 
