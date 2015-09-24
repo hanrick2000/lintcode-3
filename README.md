@@ -15,7 +15,7 @@ Solutions of problems from LintCode.
 - [Search](#search)
 - [String](#string)
 - [Dynamic Programming](#dynamic-programming)
-- [Bit](#bit)
+- [Bit & Math](#bit--math)
 - [Integer Array](#integer-array)
 - [Two pointers](#two-pointers)
 - [Basic](#basic)
@@ -218,11 +218,14 @@ Solutions of problems from LintCode.
 |[Interleaving String](http://www.lintcode.com/en/problem/interleaving-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingString.java)
 
 
-## Bit
+## Bit & Math
 
 |#| Problem | Solution | Note
 ---:|---|---|---
-|[Count 1 in Binary](http://www.lintcode.com/en/problem/count-1-in-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountOneInBinary.java)
+1|[Count 1 in Binary](http://www.lintcode.com/en/problem/count-1-in-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountOneInBinary.java)
+|[Flip Bits](http://www.lintcode.com/en/problem/flip-bits/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FlipBits.java)
+|[Unique Binary Search Tree](http://www.lintcode.com/en/problem/unique-binary-search-trees/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueBinarySearchTree.java)
+|[Trailing Zeros](http://www.lintcode.com/en/problem/trailing-zeros/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TrailingZeros.java)
 
 
 
