@@ -23,6 +23,8 @@ public int findPeak(int[] A) {
 
 Time: O(logN)
 
+*Search space is not continuous, check whether mid is peak first.*
+
 ```java
 public int findPeak(int[] A) {
     if (A == null || A.length < 3) {
