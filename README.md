@@ -21,6 +21,8 @@ Solutions of problems from LintCode.
     - [Sequence](#sequence)
     - [Two Sequences](#two-sequences)
 - [Two pointers](#two-pointers)
+    - [对撞型](#对撞型)
+    - [追击型](#追击型)
 - [String](#string)
 - [Bit & Math](#bit--math)
 - [Integer Array](#integer-array)
@@ -223,6 +225,8 @@ Solutions of problems from LintCode.
 
 ## Two pointers
 
+### 对撞型
+
 |#| Problem | Solution | Note
 ---:|---|---|---
 1|[2 Sum](http://www.lintcode.com/en/problem/2-sum/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/2Sum.java)
@@ -240,6 +244,14 @@ Solutions of problems from LintCode.
 12|[Sort Colors II](http://www.lintcode.com/en/problem/sort-colors-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColorsII.java)| time
 13|[Sort Letters by Case](http://www.lintcode.com/en/problem/sort-letters-by-case/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortLettersByCase.java)
 14|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
+
+### 追击型
+
+|#| Problem | Solution | Note
+---:|---|---|---
+|window
+|[Longest Substring Without Repeating Characters](http://www.lintcode.com/en/problem/longest-substring-without-repeating-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
+|[Minimum Window Substring](http://www.lintcode.com/en/problem/minimum-window-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumWindowSubstring.java)
 
 
 ## String
@@ -289,6 +301,9 @@ Solutions of problems from LintCode.
 |#| Problem | Solution | Note
 ---:|---|---|---
 1|[Matrix Zigzag Traversal](http://www.lintcode.com/en/problem/matrix-zigzag-traversal/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MatrixZigzagTraversal.java)
+2|[Reverse Integer](http://www.lintcode.com/en/problem/reverse-integer/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReverseInteger.java)
+3|[Singleton](http://www.lintcode.com/en/problem/singleton/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Singleton.java)|[note](https://github.com/tianlinliu/lintcode/blob/master/Singleton.md)
+4|[Valid Sudoku](http://www.lintcode.com/en/problem/valid-sudoku/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidSudoku.java)
+5|[Permutation Index](http://www.lintcode.com/en/problem/permutation-index/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationIndex.java)
 
 
-|[]()|[solution]()
