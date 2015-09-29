@@ -69,3 +69,74 @@ public class FindConnectedComponentInUndirectedGraph {
         return result;
     }
 }
+
+
+
+/**
+ * Definition for Undirected graph.
+ * class UndirectedGraphNode {
+ *     int label;
+ *     ArrayList<UndirectedGraphNode> neighbors;
+ *     UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
+ * };
+ */
+public class Solution {
+    /**
+     * @param nodes a array of Undirected graph node
+     * @return a connected set of a Undirected graph
+     */
+    public List<List<Integer>> connectedSet(ArrayList<UndirectedGraphNode> nodes) {
+        Map<UndirectedGraphNode, UndirectedGraphNode> parentMap = makeSets(nodes);
+        Set<UndirectedGraphNode> visited = new HashSet<>(nodes.size());
+        for (for i = 0; i < nodes.size(); i++) {
+            UndirectedGraphNode curr = nodes.get(i);
+            if (visited.contains(curr)) {
+                continue;
+            }
+            visited.add(curr);
+            for (UndirectedGraphNode neighbor : curr.neighbors) {
+                if (visited.contains(neighbor) {
+                    continue;
+                }
+                union(parentMap, curr, neighbor);
+            }
+            /*
+            Queue<UndirectedGraphNode> q = new LinkedList<>();
+            q.offer(curr);
+            while (!q.isEmpty()) {
+                UndirectedGraphNode p = q.poll();
+                for (UndirectedGraphNode neighbor : p.neighbors) {
+                    if (visited.contains(neighbor) {
+                        continue;
+                    }
+                    union(parentMap, p, neighbor);
+                    visited.add(neighbor);
+                    q.offer(neighbor);
+                }
+            }
+            */
+        }
+
+
+    }
+
+    private Map<UndirectedGraphNode, UndirectedGraphNode> makeSets(ArrayList<UndirectedGraphNode> nodes) {
+        Map<UndirectedGraphNode, UndirectedGraphNode> parentMap = new HashMap<>(nodes.size());
+        for (UndirectedGraphNode node : nodes) {
+            map.put(node, node);
+        }
+    }
+
+    private void union(Map<UndirectedGraphNode, UndirectedGraphNode> parentMap, UndirectedGraphNode p, UndirectedGraphNode n) {
+        UndirectedGraphNode pRoot = find(parentMap, p);
+        UndirectedGraphNode nRoot = find(parentMap, n);
+        parentMap.put(nRoot, pRoot);
+    }
+
+    private UndirectedGraphNode find(Map<UndirectedGraphNode, UndirectedGraphNode> parentMap, UndirectedGraphNode node) {
+        while (parentMap.get(node) != node) {
+            node = parentMap.get(node);
+        }
+        return node;
+    }
+}
