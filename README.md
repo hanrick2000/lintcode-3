@@ -173,6 +173,7 @@ Solutions of problems from LintCode.
 3|[Word Ladder](http://www.lintcode.com/en/problem/word-ladder/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordLadder.java)
 4|[Word Ladder II](http://www.lintcode.com/en/problem/word-ladder-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordLadderII.java)|level order
 5|[Find the Connected Component in the Undirected Graph](http://www.lintcode.com/en/problem/find-the-connected-component-in-the-undirected-graph/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindConnectedComponentInUndirectedGraph.java)
+6||[Number of Islands](http://www.lintcode.com/en/problem/number-of-islands/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NumberOfIslands.java)
 
 
 ## Search
@@ -304,6 +305,5 @@ Solutions of problems from LintCode.
 2|[Reverse Integer](http://www.lintcode.com/en/problem/reverse-integer/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ReverseInteger.java)
 3|[Singleton](http://www.lintcode.com/en/problem/singleton/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Singleton.java)|[note](https://github.com/tianlinliu/lintcode/blob/master/Singleton.md)
 4|[Valid Sudoku](http://www.lintcode.com/en/problem/valid-sudoku/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidSudoku.java)
-5|[Permutation Index](http://www.lintcode.com/en/problem/permutation-index/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationIndex.java)
-
+5|[Permutation Index](http://www.lintcode.com/en/problem/permutation-index/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PermutationIndex.java)|to do: dfs
 
