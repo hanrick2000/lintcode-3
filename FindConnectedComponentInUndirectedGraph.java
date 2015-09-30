@@ -4,139 +4,100 @@
  *     int label;
  *     ArrayList<UndirectedGraphNode> neighbors;
  *     UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
- * };
+ * }
  */
 public class FindConnectedComponentInUndirectedGraph {
-    /**
-     * @param nodes a array of Undirected graph node
-     * @return a connected set of a Undirected graph
-     */
-    public List<List<Integer>> connectedSet(ArrayList<UndirectedGraphNode> nodes) {
-        Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
-        for (UndirectedGraphNode n : nodes) {
-            if (!map.containsKey(n)) {
-                map.put(n, n);
-                Queue<UndirectedGraphNode> q = new LinkedList<>();
-                q.offer(n);
-                while (!q.isEmpty()) {
-                    int size = q.size();
-                    for (int i = 0; i < size; i++) {
-                        UndirectedGraphNode p = q.poll();
-                        for (UndirectedGraphNode c : p.neighbors) {
-                            if (!map.containsKey(c)) {
-                                map.put(c, p);
-                                q.offer(c);
-                            }
-                        }
+    public List<List<Integer>> connectedSet_bfs(ArrayList<UndirectedGraphNode> nodes) {
+        List<List<Integer>> result = new ArrayList<>();
+        Set<UndirectedGraphNode> visited = new HashSet<>(nodes.size());
+        for (UndirectedGraphNode node : nodes) {
+            if (visited.contains(node)) {
+                continue;
+            }
+            List<Integer> list = new ArrayList<>();
+            Queue<UndirectedGraphNode> q = new LinkedList<>();
+            q.offer(node);
+            visited.add(node);
+            while (!q.isEmpty()) {
+                UndirectedGraphNode curr = q.poll();
+                list.add(curr.label);
+                for (UndirectedGraphNode neighbor : curr.neighbors) {
+                    if (!visited.contains(neighbor)) {
+                        q.offer(neighbor);
+                        visited.add(neighbor);
                     }
                 }
             }
-        }
-
-        for (UndirectedGraphNode n : map.keySet()) {
-            // find
-            UndirectedGraphNode parent = map.get(n);
-            while (map.get(parent) != parent) {
-                parent = map.get(parent);
-            }
-            // union
-            UndirectedGraphNode next = map.get(n);
-            while (next != parent) {
-                map.put(n, parent);
-                n = next;
-                next = map.get(n);
-            }
-        }
-
-        // reset key-value pair
-        Map<Integer, List<Integer>> parentMap = new HashMap<>();
-        for (UndirectedGraphNode n : map.keySet()) {
-            int key = map.get(n).label;
-            if (!parentMap.containsKey(key)) {
-                List<Integer> list = new ArrayList<>();
-                list.add(n.label);
-                parentMap.put(key, list);
-            } else {
-                parentMap.get(key).add(n.label);
-            }
-        }
-
-        List<List<Integer>> result = new ArrayList<>();
-        for (List<Integer> l : parentMap.values()) {
-            Collections.sort(l); // =。=
-            result.add(l);
+            // Collections.sort(list);  // for online assessment
+            result.add(list);
         }
         return result;
     }
-}
 
+/*============================================================================*/
 
+    public List<List<Integer>> connectedSet_unionFind(ArrayList<UndirectedGraphNode> nodes) {
+        List<List<Integer>> result = new ArrayList<>();
+        if (nodes == null || nodes.size() == 0) {
+            return result;
+        }
 
-/**
- * Definition for Undirected graph.
- * class UndirectedGraphNode {
- *     int label;
- *     ArrayList<UndirectedGraphNode> neighbors;
- *     UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
- * };
- */
-public class Solution {
-    /**
-     * @param nodes a array of Undirected graph node
-     * @return a connected set of a Undirected graph
-     */
-    public List<List<Integer>> connectedSet(ArrayList<UndirectedGraphNode> nodes) {
-        Map<UndirectedGraphNode, UndirectedGraphNode> parentMap = makeSets(nodes);
-        Set<UndirectedGraphNode> visited = new HashSet<>(nodes.size());
-        for (for i = 0; i < nodes.size(); i++) {
-            UndirectedGraphNode curr = nodes.get(i);
-            if (visited.contains(curr)) {
+        // initialization
+        Map<Integer, Integer> parents = new HashMap<>();
+        for (UndirectedGraphNode node : nodes) {
+            parents.put(node.label, node.label);
+        }
+
+        // union
+        for (UndirectedGraphNode node : nodes) {
+            for (UndirectedGraphNode neighbor : node.neighbors) {
+                int nodeParent = find(parents, node.label); // or change it to compressFind
+                int neighborParent = find(parents, neighbor.label); // compressFind
+                if (nodeParent != neighborParent) {
+                    parents.put(neighborParent, nodeParent);
+                }
+            }
+        }
+
+        // sort out result
+        Set<Integer> visited = new HashSet<>();
+        Map<Integer, List<Integer>> resultMap = new HashMap<>();
+        for (UndirectedGraphNode node : nodes) {
+            if (visited.contains(node.label)) {
                 continue;
             }
-            visited.add(curr);
-            for (UndirectedGraphNode neighbor : curr.neighbors) {
-                if (visited.contains(neighbor) {
-                    continue;
-                }
-                union(parentMap, curr, neighbor);
+            int parent = find(parents, node.label);
+            if (resultMap.containsKey(parent)) {
+                resultMap.get(parent).add(node.label);
+            } else {
+                List<Integer> list = new ArrayList<>();
+                list.add(node.label);
+                resultMap.put(parent, list);
             }
-            /*
-            Queue<UndirectedGraphNode> q = new LinkedList<>();
-            q.offer(curr);
-            while (!q.isEmpty()) {
-                UndirectedGraphNode p = q.poll();
-                for (UndirectedGraphNode neighbor : p.neighbors) {
-                    if (visited.contains(neighbor) {
-                        continue;
-                    }
-                    union(parentMap, p, neighbor);
-                    visited.add(neighbor);
-                    q.offer(neighbor);
-                }
-            }
-            */
+            visited.add(node.label);
         }
 
-
-    }
-
-    private Map<UndirectedGraphNode, UndirectedGraphNode> makeSets(ArrayList<UndirectedGraphNode> nodes) {
-        Map<UndirectedGraphNode, UndirectedGraphNode> parentMap = new HashMap<>(nodes.size());
-        for (UndirectedGraphNode node : nodes) {
-            map.put(node, node);
+        for (Map.Entry<Integer, List<Integer>> entry : resultMap.entrySet()) {
+            result.add(entry.getValue());
         }
+        return result;
     }
 
-    private void union(Map<UndirectedGraphNode, UndirectedGraphNode> parentMap, UndirectedGraphNode p, UndirectedGraphNode n) {
-        UndirectedGraphNode pRoot = find(parentMap, p);
-        UndirectedGraphNode nRoot = find(parentMap, n);
-        parentMap.put(nRoot, pRoot);
-    }
-
-    private UndirectedGraphNode find(Map<UndirectedGraphNode, UndirectedGraphNode> parentMap, UndirectedGraphNode node) {
-        while (parentMap.get(node) != node) {
-            node = parentMap.get(node);
+    private int find(Map<Integer, Integer> parents, int curr) {
+        while (curr != parents.get(curr)) {
+            curr = parents.get(curr);
         }
-        return node;
+        return curr;
+    }
+
+    // compress find
+    private int compressFind(Map<Integer, Integer> parents, int curr) {
+        int parent = find(parents, curr);
+        while (curr != parent) {
+            int next = parents.get(curr);
+            parents.put(curr, parent);
+            curr = next;
+        }
+        return parent;
     }
 }
