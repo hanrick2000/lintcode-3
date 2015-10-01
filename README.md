@@ -23,6 +23,7 @@ Solutions of problems from LintCode.
 - [Two pointers](#two-pointers)
     - [对撞型](#对撞型)
     - [追击型](#追击型)
+- [Follow up questions](#follow-up-questions)
 - [String](#string)
 - [Bit & Math](#bit--math)
 - [Integer Array](#integer-array)
@@ -254,6 +255,17 @@ Solutions of problems from LintCode.
 |[Longest Substring Without Repeating Characters](http://www.lintcode.com/en/problem/longest-substring-without-repeating-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
 |[Minimum Window Substring](http://www.lintcode.com/en/problem/minimum-window-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumWindowSubstring.java)
 
+## Follow up questions
+
+|#| Problem | Solution | Note
+---:|---|---|---
+1|[Single Number](http://www.lintcode.com/en/problem/single-number/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SingleNumber.java)
+2|[Single Number II](http://www.lintcode.com/en/problem/single-number-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SingleNumberII.java)|to do: O(1) space
+3|[Single Number III](http://www.lintcode.com/en/problem/single-number-iii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SingleNumberIII.java)
+ |
+1|[Best Time to Buy and Sell Stock](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BestTimeToBuyAndSellStock.java)
+2|[Best Time to Buy and Sell Stock II](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BestTimeToBuyAndSellStockII.java)
+3|[Best Time to Buy and Sell Stock III](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BestTimeToBuyAndSellStockIII.java)
 
 ## String
 
