@@ -174,7 +174,7 @@ Solutions of problems from LintCode.
 3|[Word Ladder](http://www.lintcode.com/en/problem/word-ladder/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordLadder.java)
 4|[Word Ladder II](http://www.lintcode.com/en/problem/word-ladder-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WordLadderII.java)|level order
 5|[Find the Connected Component in the Undirected Graph](http://www.lintcode.com/en/problem/find-the-connected-component-in-the-undirected-graph/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindConnectedComponentInUndirectedGraph.java)
-6||[Number of Islands](http://www.lintcode.com/en/problem/number-of-islands/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NumberOfIslands.java)
+6|[Number of Islands](http://www.lintcode.com/en/problem/number-of-islands/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/NumberOfIslands.java)
 
 
 ## Search
@@ -251,9 +251,9 @@ Solutions of problems from LintCode.
 
 |#| Problem | Solution | Note
 ---:|---|---|---
-|window
-|[Longest Substring Without Repeating Characters](http://www.lintcode.com/en/problem/longest-substring-without-repeating-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
-|[Minimum Window Substring](http://www.lintcode.com/en/problem/minimum-window-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumWindowSubstring.java)
+ |*window*
+1|[Longest Substring Without Repeating Characters](http://www.lintcode.com/en/problem/longest-substring-without-repeating-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
+2|[Minimum Window Substring](http://www.lintcode.com/en/problem/minimum-window-substring/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumWindowSubstring.java)
 
 ## Follow up questions
 
@@ -266,22 +266,28 @@ Solutions of problems from LintCode.
 1|[Best Time to Buy and Sell Stock](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BestTimeToBuyAndSellStock.java)
 2|[Best Time to Buy and Sell Stock II](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BestTimeToBuyAndSellStockII.java)
 3|[Best Time to Buy and Sell Stock III](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BestTimeToBuyAndSellStockIII.java)
+ |
+1|[Subarray Sum](http://www.lintcode.com/en/problem/subarray-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SubarraySum.java)
+2|[Maximum Subarray](http://www.lintcode.com/en/problem/minimum-subarray/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MaximumSubarray.java)
+3|[Maximum Subarray II](http://www.lintcode.com/en/problem/maximum-subarray-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MaximumSubarrayII.java)
+4|[Minimum Subarray](http://www.lintcode.com/en/problem/maximum-subarray/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/MinimumSubarray.java)
+5|[Continuous Subarray Sum](http://www.lintcode.com/en/problem/continuous-subarray-sum/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ContinuousSubarraySum.java)
 
 ## String
 
 |#| Problem | Solution | Note
 ---:|---|---|---
-|[Unique Characters](http://www.lintcode.com/en/problem/unique-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueCharacters.java)
-|[Longest Words](http://www.lintcode.com/en/problem/longest-words/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestWords.java)
-|[Length of Last Word](http://www.lintcode.com/en/problem/length-of-last-word/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LengthOfLastWord.java)
-|[Two Strings Are Anagrams](http://www.lintcode.com/en/problem/two-strings-are-anagrams/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TwoStringsAreAnagrams.java)
-|[Compare Strings](http://www.lintcode.com/en/problem/compare-strings/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CompareStrings.java)
-|[StrStr](http://www.lintcode.com/en/problem/strstr/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/StrStr.java)
-|[Rotate String](http://www.lintcode.com/en/problem/rotate-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateString.java)
-|[Space Replacement](http://www.lintcode.com/en/problem/space-replacement/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SpaceReplacement.java)
-|[Count and Say](http://www.lintcode.com/en/problem/count-and-say/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountAndSay.java)|*
-|[Add Binary](http://www.lintcode.com/en/problem/add-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddBinary.java)
-|[String to Integer(atoi)](http://www.lintcode.com/en/problem/string-to-integeratoi/#)|[solution]()
+1|[Unique Characters](http://www.lintcode.com/en/problem/unique-characters/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/UniqueCharacters.java)
+2|[Longest Words](http://www.lintcode.com/en/problem/longest-words/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LongestWords.java)
+3|[Length of Last Word](http://www.lintcode.com/en/problem/length-of-last-word/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/LengthOfLastWord.java)
+4|[Two Strings Are Anagrams](http://www.lintcode.com/en/problem/two-strings-are-anagrams/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TwoStringsAreAnagrams.java)
+5|[Compare Strings](http://www.lintcode.com/en/problem/compare-strings/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CompareStrings.java)
+6|[StrStr](http://www.lintcode.com/en/problem/strstr/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/StrStr.java)
+7|[Rotate String](http://www.lintcode.com/en/problem/rotate-string/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/RotateString.java)
+8|[Space Replacement](http://www.lintcode.com/en/problem/space-replacement/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SpaceReplacement.java)
+9|[Count and Say](http://www.lintcode.com/en/problem/count-and-say/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/CountAndSay.java)|*
+10|[Add Binary](http://www.lintcode.com/en/problem/add-binary/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/AddBinary.java)
+11|[String to Integer(atoi)](http://www.lintcode.com/en/problem/string-to-integeratoi/#)|[solution]()
 
 
 ## Bit & Math
