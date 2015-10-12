@@ -1,6 +1,6 @@
 # Lintcode solutions
 
-Solutions of problems from LintCode.
+Solutions of problems from [LintCode](http://www.lintcode.com/).
 
 ## Table of Contents
 
