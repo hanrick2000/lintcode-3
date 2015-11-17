@@ -232,20 +232,21 @@ Solutions of problems from [LintCode](http://www.lintcode.com/).
 |#| Problem | Solution | Note
 ---:|---|---|---
 1|[2 Sum](http://www.lintcode.com/en/problem/2-sum/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/2Sum.java)
-2|[3 Sum](http://www.lintcode.com/en/problem/3-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3Sum.java)
-3|[3 Sum Closest](http://www.lintcode.com/en/problem/3-sum-closest/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3SumClosest.java)
-4|[4 Sum](http://www.lintcode.com/en/problem/4-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/4Sum.java)
-5|[Triangle Count](http://www.lintcode.com/en/problem/triangle-count/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TriangleCount.java)|?
-6|[Trapping Rain Water](http://www.lintcode.com/en/problem/trapping-rain-water/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TrappingRainWater.java)
-7|[Container With Most Water](http://www.lintcode.com/en/problem/container-with-most-water/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ContainerWithMostWater.java)
+2 |[2 Summ II](http://www.lintcode.com/en/problem/two-sum-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/2SumII.java)
+3|[3 Sum](http://www.lintcode.com/en/problem/3-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3Sum.java)
+4|[3 Sum Closest](http://www.lintcode.com/en/problem/3-sum-closest/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/3SumClosest.java)
+5|[4 Sum](http://www.lintcode.com/en/problem/4-sum/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/4Sum.java)
+6|[Triangle Count](http://www.lintcode.com/en/problem/triangle-count/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TriangleCount.java)|?
+7|[Trapping Rain Water](http://www.lintcode.com/en/problem/trapping-rain-water/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/TrappingRainWater.java)
+8|[Container With Most Water](http://www.lintcode.com/en/problem/container-with-most-water/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ContainerWithMostWater.java)
  |partition
-8|[Partition Array](http://www.lintcode.com/en/problem/partition-array/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArray.java)
-9|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
-10|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
-11|[Sort Colors](http://www.lintcode.com/en/problem/sort-colors/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColors.java)
-12|[Sort Colors II](http://www.lintcode.com/en/problem/sort-colors-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColorsII.java)| time
-13|[Sort Letters by Case](http://www.lintcode.com/en/problem/sort-letters-by-case/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortLettersByCase.java)
-14|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
+9|[Partition Array](http://www.lintcode.com/en/problem/partition-array/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArray.java)
+10|[Partition Array by Odd and Even](http://www.lintcode.com/en/problem/partition-array-by-odd-and-even/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/PartitionArrayByOddAndEven.java)
+11|[Interleaving Positive and Negative Numbers](http://www.lintcode.com/en/problem/interleaving-positive-and-negative-numbers/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/InterleavingPositiveAndNegativeNumbers.java)
+12|[Sort Colors](http://www.lintcode.com/en/problem/sort-colors/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColors.java)
+13|[Sort Colors II](http://www.lintcode.com/en/problem/sort-colors-ii/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortColorsII.java)| time
+14|[Sort Letters by Case](http://www.lintcode.com/en/problem/sort-letters-by-case/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SortLettersByCase.java)
+15|[Valid Palindrome](http://www.lintcode.com/en/problem/valid-palindrome/#)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ValidPalindrome.java)
 
 ### 追击型
 
