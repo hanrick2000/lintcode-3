@@ -30,6 +30,7 @@ Solutions of problems from [LintCode](http://www.lintcode.com/).
 	- [Bit & Math](#bit-math)
 	- [Integer Array](#integer-array)
 	- [Basic](#basic)
+
 <!-- /TOC -->
 
 ## Sorted Array
@@ -48,21 +49,22 @@ Solutions of problems from [LintCode](http://www.lintcode.com/).
 
 ## Binary Search
 
-|#| Problem | Solution | Note
+|#| Problem | Solution | 2nd Time
 ---:|---|---|---
-1|[Binary search](http://www.lintcode.com/en/problem/binary-search/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearch.java)
-2|[Search Insert Position](http://www.lintcode.com/en/problem/search-insert-position/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchInsertPosition.java)
-3|[Search for a range](http://www.lintcode.com/en/problem/search-for-a-range/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchRange.java)
-4|[First Bad Version](http://www.lintcode.com/en/problem/first-bad-version/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindFirstBadVersion.java)
+1|[Binary search](http://www.lintcode.com/en/problem/binary-search/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/BinarySearch.java)|d
+2|[Search Insert Position](http://www.lintcode.com/en/problem/search-insert-position/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchInsertPosition.java)|d
+3|[Search for a range](http://www.lintcode.com/en/problem/search-for-a-range/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchRange.java)|d
+4|[First Bad Version](http://www.lintcode.com/en/problem/first-bad-version/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindFirstBadVersion.java)|d
 5|[Sqrt(x)](http://www.lintcode.com/en/problem/sqrtx/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Sqrt(x).java)
-6|[Search 2D Matrix](http://www.lintcode.com/en/problem/search-a-2d-matrix/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Search2DMatrix.java)
-7|[Find Peak Element](http://www.lintcode.com/en/problem/find-peak-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindPeakElement.java)|*
+6|[Search 2D Matrix](http://www.lintcode.com/en/problem/search-a-2d-matrix/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/Search2DMatrix.java)|d
+7|[Find Peak Element](http://www.lintcode.com/en/problem/find-peak-element/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindPeakElement.java)|d
 8|[Find Peak Element II](http://www.lintcode.com/en/problem/find-peak-element-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindPeakElementII.java)|*
-9|[Find Minimum in Rotated Sorted Array](http://www.lintcode.com/en/problem/find-minimum-in-rotated-sorted-array/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindMinimumInRotatedSortedArray.java)
-10|[Find Minimum in Rotated Sorted Array II](http://www.lintcode.com/en/problem/find-minimum-in-rotated-sorted-array-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindMinimumInRotatedSortedArrayII.java)
+9|[Find Minimum in Rotated Sorted Array](http://www.lintcode.com/en/problem/find-minimum-in-rotated-sorted-array/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindMinimumInRotatedSortedArray.java)|d
+10|[Find Minimum in Rotated Sorted Array II](http://www.lintcode.com/en/problem/find-minimum-in-rotated-sorted-array-ii/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/FindMinimumInRotatedSortedArrayII.java)|d
 11|[Search in Rotated Sorted Array](http://www.lintcode.com/problem/search-in-rotated-sorted-array)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchInRotatedSortedArray.java)
 12|[Search in Rotated Sorted Array II](http://www.lintcode.com/problem/search-in-rotated-sorted-array-ii)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchInRotatedSortedArrayII.java)
 13|[Wood Cut](http://www.lintcode.com/en/problem/wood-cut/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WoodCut.java)
+14|[Closest Number in Sorted Array]|[solution]()|d
 
 2. [Count of Smaller Number](http://www.lintcode.com/en/problem/count-of-smaller-number/)
 7. Median of two sorted arrays
