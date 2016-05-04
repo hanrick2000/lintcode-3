@@ -58,5 +58,25 @@ class FindPeakElement {
         }
         return low;
     }
+    
+    // update 05/03/16
+    public int findPeak(int[] A) {
+        if (A == null || A.length < 3) {
+            return -1;
+        }
+        int low = 0;
+        int high = A.length - 1;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (A[mid] > A[mid - 1] && A[mid] > A[mid + 1]) {
+                return mid;
+            } else if (A[mid] > A[mid + 1]) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return A[low] > A[low - 1] && A[low] > A[low + 1]? low : -1;
+    }
 }
 
