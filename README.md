@@ -64,7 +64,7 @@ Solutions of problems from [LintCode](http://www.lintcode.com/).
 11|[Search in Rotated Sorted Array](http://www.lintcode.com/problem/search-in-rotated-sorted-array)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchInRotatedSortedArray.java)
 12|[Search in Rotated Sorted Array II](http://www.lintcode.com/problem/search-in-rotated-sorted-array-ii)|[solution](https://github.com/tianlinliu/lintcode/blob/master/SearchInRotatedSortedArrayII.java)
 13|[Wood Cut](http://www.lintcode.com/en/problem/wood-cut/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/WoodCut.java)
-14|[Closest Number in Sorted Array]|[solution]()|d
+14|[Closest Number in Sorted Array](http://www.lintcode.com/en/problem/closest-number-in-sorted-array/)|[solution](https://github.com/tianlinliu/lintcode/blob/master/ClosestNumberInSortedArray.java)|d
 
 2. [Count of Smaller Number](http://www.lintcode.com/en/problem/count-of-smaller-number/)
 7. Median of two sorted arrays
